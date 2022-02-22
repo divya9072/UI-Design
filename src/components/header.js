@@ -26,7 +26,7 @@ const Header = () => {
           <li>CONTACT</li>
           <li>
             <i
-              style={{ color: "rgb(131, 131, 131", cursor: "pointer" }}
+              style={{ color: "cadetblue", cursor: "pointer" }}
               class="fa fa-search"
             ></i>
           </li>

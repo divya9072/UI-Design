@@ -1,0 +1,85 @@
+.features {
+  background-color: rgb(36, 36, 36);
+  /* background-color:blueviolet; */
+  width: 100%;
+  margin-top: 6rem;
+  /* height: 500px; */
+}
+.features_title {
+  align-items: center;
+  justify-self: center;
+  text-align: center;
+}
+.features_title > h1 {
+  margin-bottom: 2px;
+  color: white;
+  font-weight: 600;
+  font-size: 36px;
+  margin-top: 0;
+  padding-top: 2rem;
+}
+.features_title > h1 > span {
+  color: cadetblue;
+}
+.features_title > span {
+  color: #ddd;
+}
+
+.features_des {
+  display: flex;
+}
+
+/* cards */
+/* .featurecard{
+    display: flex;
+} */
+.feature_left {
+  display: flex;
+  width: 70%;
+  height: auto;
+  margin-bottom: 1rem;
+  /* margin-left: 12rem; */
+  padding-left: 14rem;
+}
+.feature_img {
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+.feature_img > img {
+  border-radius: 50%;
+  padding: 40px;
+  height: 55px;
+  align-items: center;
+  padding-right: 30px;
+}
+.feature_text > h4 {
+  color: white;
+  line-height: 20px;
+  font-size: 18px;
+}
+.feature_text > p {
+  line-height: 28px;
+  font-size: 1rem;
+  color: #ddd;
+}
+
+.features_des {
+  margin-top: 5rem;
+}
+.des_right {
+  flex: 1;
+}
+.des_img1 {
+  width: 350px;
+  height: 500px;
+  margin-left: 16rem;
+  position: relative;
+  padding-right: 110px;
+}
+.des_img2 {
+  width: 423px;
+  height: 316px;
+  position: absolute;
+  margin-top: -20rem;
+}
