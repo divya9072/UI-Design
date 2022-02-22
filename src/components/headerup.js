@@ -9,9 +9,9 @@ const Headerup = () => {
       <div className="headerup_test">
         <h6>WHAT YOU ARE WAITING FOR ?</h6>
         <h1>LET'S BE CREATIVE !</h1>
-        <p>Unique , NEXT GENERATION & HIGHLY FLEXIBLE WORDPRESS THEME</p>
+        <p><span>U</span>nique , NEXT GENERATION & HIGHLY FLEXIBLE WORDPRESS THEME</p>
         <h3>
-          <i className="arrow left"></i>START DOING THAT
+          <i className="arrow left"></i><span>START </span>DOING THAT
           <i className="arrow right"></i>
         </h3>
       </div>

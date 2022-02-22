@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 12rem 12rem;
+  padding: 0 12rem;
+  border-bottom: 2px solid #ddd;
 }
 
 .header_right > ul {
@@ -16,12 +17,15 @@
 
 .header_left > h1 {
   font-family: robutu;
+  color: rgb(36, 36, 36);
 }
 .header_right > ul > li {
   padding: 15px;
+  color: rgb(36, 36, 36);
+  font-weight: 700;
 }
+
 .header_right > ul > li:hover {
-  background-color: rgb(87, 87, 87);
-  color: #ddd;
+  background-color: cadetblue;
   cursor: pointer;
 }

@@ -1,0 +1,79 @@
+.offertext{
+    text-align: center;
+    padding-top: 4rem;
+}
+.offertext > h1>span{
+    color: cadetblue;
+}
+.offertext > p{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(102, 99, 99);
+}
+.offertext > h1{
+    line-height: 15px;
+    font-family: robutu;
+    color: rgb(36, 36, 36);
+}
+
+.offer-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.offercard_container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offercard_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    /* padding: 20px 25px; */
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.offercard_box >img{
+    height: 75px;
+  margin-bottom: 10px;
+}
+
+.offercard_box > h4{
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+    color: rgb(102, 99, 99);
+    font-weight: 700;
+    line-height: 1px;
+}
+.offercard_box >p{
+    text-align: center;
+}
+
+.offercard_box >button {
+    width: 110px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 700;
+    font-weight: 700;
+    background-color: white;
+}
+
+.offercard_box >button:hover {
+    background-color: cadetblue;
+    color: white;
+}

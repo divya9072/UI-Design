@@ -68,3 +68,10 @@
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
+
+.headerup_test > p> span{
+  color: cadetblue;
+}
+.headerup_test > h3> span{
+  color: cadetblue;
+}
