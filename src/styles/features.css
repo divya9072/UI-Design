@@ -2,8 +2,8 @@
   background-color: rgb(36, 36, 36);
   /* background-color:blueviolet; */
   width: 100%;
-  margin-top: 6rem;
-  /* height: 500px; */
+  margin-top: 4rem;
+  height: 680px;
 }
 .features_title {
   align-items: center;
@@ -11,18 +11,18 @@
   text-align: center;
 }
 .features_title > h1 {
-  margin-bottom: 2px;
+  margin-bottom: 7px;
   color: white;
   font-weight: 600;
-  font-size: 36px;
+  font-size: 34px;
   margin-top: 0;
   padding-top: 2rem;
 }
 .features_title > h1 > span {
-  color: cadetblue;
+  color: rgb(59, 194, 183);
 }
 .features_title > span {
-  color: #ddd;
+  color:  rgb(102, 99, 99);
 }
 
 .features_des {
@@ -35,16 +35,16 @@
 } */
 .feature_left {
   display: flex;
-  width: 70%;
+  width: 58%;
   height: auto;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   /* margin-left: 12rem; */
   padding-left: 14rem;
 }
 .feature_img {
   align-items: center;
   justify-content: center;
-  width: 30%;
+  width: 20%;
 }
 .feature_img > img {
   border-radius: 50%;
@@ -53,15 +53,18 @@
   align-items: center;
   padding-right: 30px;
 }
+.features_icons:hover{
+  color: #ddd;
+}
 .feature_text > h4 {
   color: white;
   line-height: 20px;
-  font-size: 18px;
+  font-size: 15px;
 }
 .feature_text > p {
   line-height: 28px;
-  font-size: 1rem;
-  color: #ddd;
+  font-size: 15px;
+  color: rgb(71, 71, 71);
 }
 
 .features_des {
@@ -72,14 +75,40 @@
 }
 .des_img1 {
   width: 350px;
-  height: 500px;
+  height: 465px;
   margin-left: 16rem;
   position: relative;
   padding-right: 110px;
 }
 .des_img2 {
   width: 423px;
-  height: 316px;
+  height: 317px;
   position: absolute;
   margin-top: -20rem;
+}
+
+.features_icons{
+  color:  rgb(59, 194, 183);
+  width: 40%;
+  height: 100%;
+
+}
+
+.keyiconbg {
+  background-color: rgb(59, 194, 183);
+  width: 30px;
+  height: 30px;
+  transform: rotateZ(45deg);
+  position:relative;
+  bottom:14px;
+  border-radius: 3px;
+  margin-left: 46rem;
+}
+.keyicon {
+  color:white;
+  font-size: 14px;
+  transform: rotateZ(135deg);
+  align-items: center;
+  justify-content: center;
+  margin-top: 9px;
 }
