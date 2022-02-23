@@ -3,11 +3,12 @@
     padding-top: 4rem;
 }
 .offertext > h1>span{
-    color: cadetblue;
+    color:  rgb(59, 194, 183);
+   
 }
-.offertext > p{
-    font-size: 18px;
-    font-weight: 400;
+.offertext > span{
+        /* font-size: 16.5px;
+        font-weight: 400; */
     color: rgb(102, 99, 99);
 }
 .offertext > h1{
@@ -40,6 +41,7 @@
     /* padding: 20px 25px; */
     box-sizing: border-box;
     margin: 5px;
+    padding: 20px;
 }
 
 .offercard_box >img{
@@ -56,6 +58,7 @@
 }
 .offercard_box >p{
     text-align: center;
+    font-size: 14px;
 }
 
 .offercard_box >button {
@@ -74,6 +77,29 @@
 }
 
 .offercard_box >button:hover {
-    background-color: cadetblue;
+    background-color: rgb(59, 194, 183);
     color: white;
+}
+.offercard_box:hover{
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  transition: all ease 0.3s;
+  cursor: pointer;
+
+}
+.offercard_box:hover .offercard_icons{
+    color: rgb(59, 194, 183);
+}
+
+.offercard_icons{
+    width: 15%;
+    height: 100%;
+    margin-bottom: 1rem;
+}
+
+.offercard_imgbox{
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: red;
 }
