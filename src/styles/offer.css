@@ -13,15 +13,19 @@
 }
 .offertext > h1{
     line-height: 15px;
-    font-family: robutu;
+    font-weight: 700;
     color: rgb(36, 36, 36);
+    font-size: 1.8rem;
 }
 
+.offercard_box >span{
+    font-size: 14px;
+}
 .offer-card{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 3.2rem;
 }
 
 .offercard_container{
@@ -54,7 +58,7 @@
     margin-bottom: 8px;
     color: rgb(102, 99, 99);
     font-weight: 700;
-    line-height: 1px;
+    line-height: 20px;
 }
 .offercard_box >p{
     text-align: center;
