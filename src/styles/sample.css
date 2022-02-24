@@ -109,6 +109,8 @@
 }
 .sample_offertext > h1 {
   line-height: 15px;
-  font-family: robutu;
+  font-weight: 700;
   color: rgb(36, 36, 36);
+  font-size: 1.8rem;
 }
+
