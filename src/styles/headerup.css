@@ -75,3 +75,28 @@
 .headerup_test > h3> span{
   color:  rgb(59, 194, 183);
 }
+
+
+/* responsive */
+@media(max-width:1050px){
+ .headerup_test{
+   margin-left: 5rem;
+   font-size: 12px;
+ }
+ .headerup_test > h1 {
+  font-size: 28px;
+  letter-spacing: 1px;
+ }  
+ .headerup_test >h6{
+   font-size: 12px;
+ }
+ .headerup{
+  width: 155%;
+ }
+ .right{
+  top: 158px;
+  left: 280px;
+ }
+ .left{top: 158px;
+  left: 128px;}
+}

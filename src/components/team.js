@@ -3,15 +3,15 @@ import "../styles/teams.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareCaretLeft } from "@fortawesome/free-solid-svg-icons";
 import { faSquareCaretRight } from "@fortawesome/free-solid-svg-icons";
-import { faHeart, faSearch } from "@fortawesome/free-solid-svg-icons";
+import TeamMemberCard from "./teamcard";
 const Team = () => {
   return (
-    <div className="team_container">
+    <div className="team_container" style={{ overflow: "hidden !important" }}>
       <div className="team_offertext">
         <div className="team_top">
           <FontAwesomeIcon
             icon={faSquareCaretLeft}
-            className="fa_left" 
+            className="fa_left"
           ></FontAwesomeIcon>
           <h1>
             TEAM <span>MEMBERS</span>
@@ -28,266 +28,79 @@ const Team = () => {
         </span>
       </div>
 
-
-
       <div className=".body">
-      <div class="container">
-        <input type="radio" name="dot" id="one" />
-        <input type="radio" name="dot" id="two" />
-        <div class="main-card">
-          <div class="cards">
-            <div class="card">
-              <div class="content">
-                <div class="img">
-                  {/* <div className="bgcontainer">
-                    <div className="diamond">
-                      <FontAwesomeIcon
-                        icon={faSearch}
-                        className="topicon"
-                      ></FontAwesomeIcon>
+        <div class="teamcontain">
+          <input type="radio" name="dot" id="one" />
+          <input type="radio" name="dot" id="two" />
+          <div class="main-card">
+            <div class="cards">
+              <TeamMemberCard
+                name="ALEXIS SIMPSON"
+                post="CEO & Developer"
+                email="abc@gmail.com"
+                phone="+91 123456789"
+                img="./Images/member1.jpg"
+              />
+              <TeamMemberCard
+                name="FRANKIL BRAR"
+                post="User Interface Designer"
+                email="abc@gmail.com"
+                phone="+1 911 (77)3456"
+                img="./Images/member5.jpg"
+              />
+              <TeamMemberCard
+                name="RAHUL JAIN"
+                post="IT Specialist"
+                email="abc@gmail.com"
+                phone="+1 911 (77)3456"
+                img="./images/member4.jpg"
+              />
+              <TeamMemberCard
+                name="ASHLIY LENNON"
+                post="Sales Manager"
+                email="abc@gmail.com"
+                phone="+1 911 (77)3456"
+                img="./images/member3.jpg"
+              />
+            </div>
 
-                      <FontAwesomeIcon
-                        icon={faHeart}
-                        className="bottomicon"
-                      ></FontAwesomeIcon>
-                    </div>
-                  </div> */}
-
-                  <img src="logo512.png" alt="" />
-                </div>
-                <div class="details">
-                  <div class="name">
-                    <button>ALEXIS SIMPSON</button>
-                  </div>
-                  <div class="job">Web Designer</div>
-                </div>
-                <div class="media-icons">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-youtube"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="content">
-                <div class="img">
-                  {/* <!--- <img src="images/img2.jpg" alt="">---> */}
-                </div>
-                <div class="details">
-                  <div class="name">
-                    <button>ALEXIS SIMPSON</button>
-                  </div>
-                  <div class="job">UI Designer</div>
-                </div>
-                <div class="media-icons">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-youtube"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="content">
-                <div class="img">
-                  {/* <!--<img src="images/img6.jpeg" alt="">---> */}
-                </div>
-                <div class="details">
-                  <div class="name">
-                    <button>ALEXIS SIMPSON</button>
-                  </div>
-                  <div class="job">Web Devloper</div>
-                </div>
-                <div class="media-icons">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-youtube"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="content">
-                <div class="img">
-                  {/* <!-- <img src="images/img3.jpg" alt="">----> */}
-                </div>
-                <div class="details">
-                  <div class="name">
-                    <button>ALEXIS SIMPSON</button>
-                  </div>
-                  <div class="job">Web Devloper</div>
-                </div>
-                <div class="media-icons">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-youtube"></i>
-                  </a>
-                </div>
-              </div>
+            <div class="cards">
+              <TeamMemberCard
+                name="ALEXIS SIMPSON"
+                post="WEB DEVELOPER"
+                email="abc@gmail.com"
+                phone="+1 911 (77)3456"
+                img="./images/member2.jpg"
+              />
+              <TeamMemberCard
+                name="ALEXIS SIMPSON"
+                post="WEB DEVELOPER"
+                email="abc@gmail.com"
+                phone="+1 911 (77)3456"
+                img="./images/member1.jpg"
+              />
+              <TeamMemberCard
+                name="ALEXIS SIMPSON"
+                post="WEB DEVELOPER"
+                email="abc@gmail.com"
+                phone="+1 911 (77)3456"
+                img="./images/member5.jpg"
+              />
+              <TeamMemberCard
+                name="ALEXIS SIMPSON"
+                post="WEB DEVELOPER"
+                email="abc@gmail.com"
+                phone="123456789"
+                img="./images/member4.jpg"
+              />
             </div>
           </div>
-
-          <div class="cards">
-            <div class="card">
-              <div class="content">
-                <div class="img">
-                  {/* <!---<img src="images/img4.jpg" alt="">---> */}
-                </div>
-                <div class="details">
-                  <div class="name">Appolo Reef</div>
-                  <div class="job">Web Designer</div>
-                </div>
-                <div class="media-icons">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-youtube"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="content">
-                <div class="img">
-                  {/* <!--<img src="images/img5.jpg" alt="">----> */}
-                </div>
-                <div class="details">
-                  <div class="name">
-                    <button>ALEXIS SIMPSON</button>
-                  </div>
-                  <div class="job">UI Designer</div>
-                </div>
-                <div class="media-icons">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-youtube"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="content">
-                <div class="img">
-                  {/* <!--<img src="images/img6.jpeg" alt="">---> */}
-                </div>
-                <div class="details">
-                  <div class="name">
-                    <button>ALEXIS SIMPSON</button>
-                  </div>
-                  <div class="job">Web Devloper</div>
-                </div>
-                <div class="media-icons">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-youtube"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="content">
-                <div class="img">
-                  {/* <!--<img src="images/img6.jpeg" alt="">---> */}
-                </div>
-                <div class="details">
-                  <div class="name">
-                    <button>ALEXIS SIMPSON</button>
-                  </div>
-                  <div class="job">Web Devloper</div>
-                </div>
-                <div class="media-icons">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-youtube"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
+          <div class="button">
+            <label for="one" class=" active one"></label>
+            <label for="two" class="two"></label>
           </div>
-        </div>
-        <div class="button">
-          <label for="one" class=" active one"></label>
-          <label for="two" class="two"></label>
         </div>
       </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
   );
 };

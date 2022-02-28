@@ -3,27 +3,39 @@ import "./App.css";
 import Facts from "./components/facts";
 import Features from "./components/features";
 import FeaturesIntro from "./components/featuresintro";
+import Footer from "./components/footer";
 import Header from "./components/header";
+import Logo from "./components/logo";
+import Map from "./components/map";
 import Offer from "./components/offer";
+import Price from "./components/price";
 import Progress from "./components/progress";
+import Purchase from "./components/purchase";
 import Sample from "./components/sample";
 import Slider from "./components/Slider";
+import Sponsers from "./components/sponsers";
 import Team from "./components/team";
-import Try from "./components/try";
+
 
 function App() {
   return (
     <>
-      {/* <Header />
+      <Header />
       <Offer />
       <Features />
       <FeaturesIntro />
       <Progress />
-      <Sample /> */}
+      <Sample />
       <Facts/>
       <Team/>
-      <Slider/>
-      {/* <Try/> */}
+      <Slider/> 
+      <Sponsers/>
+      <Price/>
+      <Purchase/>
+      <Logo/>
+      <Map/>
+      <Footer/>
+    
     </>
   );
 }

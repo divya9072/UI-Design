@@ -9,7 +9,7 @@ const Progress = () => {
     <>
       <div className="features_progress">
         <div className="features_title">
-          <div className="keyiconbg_2">
+          <div className="keyiconbg_skill">
             <FontAwesomeIcon
               icon={faBriefcase}
               className="keyicon_2"
