@@ -5,6 +5,8 @@ import Features from "./components/features";
 import FeaturesIntro from "./components/featuresintro";
 import Footer from "./components/footer";
 import Header from "./components/header";
+import Headerupp from "./components/headerup";
+import Headerup from "./components/headerup";
 import Logo from "./components/logo";
 import Map from "./components/map";
 import Offer from "./components/offer";
@@ -20,21 +22,21 @@ import Team from "./components/team";
 function App() {
   return (
     <>
-      <Header />
-      <Offer />
+      {/* <Header /> */}
+      {/* <Offer /> */}
       <Features />
-      <FeaturesIntro />
-      <Progress />
-      <Sample />
-      <Facts/>
-      <Team/>
-      <Slider/> 
-      <Sponsers/>
-      <Price/>
-      <Purchase/>
-      <Logo/>
-      <Map/>
-      <Footer/>
+      {/* <FeaturesIntro /> */}
+      {/* <Progress /> */}
+      {/* <Sample /> */}
+      {/* <Facts/> */}
+      {/* <Team/> */}
+      {/* <Slider/>    */}
+      {/* <Sponsers/> */}
+      {/* <Price/> */}
+      {/* <Purchase/> */}
+      {/* <Logo/> */}
+      {/* <Map/> */}
+      {/* <Footer/> */}
     
     </>
   );

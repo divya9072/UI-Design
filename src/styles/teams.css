@@ -100,6 +100,7 @@
   width: 100%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  object-fit: cover;
 }
 
 .card .content .job {
@@ -175,6 +176,10 @@ input[type="radio"] {
     /* margin: 20px 0 10px 0; */
     width: 100%;
   }
+  .teamcontain .main-card .cards {
+    margin: 0px 60px;
+  }
+
 }
 
 .name_team > button {
