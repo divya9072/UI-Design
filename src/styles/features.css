@@ -103,7 +103,8 @@
   position:relative;
   bottom:14px;
   border-radius: 3px;
-  margin-left: 46rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .keyicon {
   color:white;
@@ -115,9 +116,45 @@
 }
 
 
-@media(max-width:"1050px"){  
+@media(max-width:1050px){  
   .feature_left{
       padding-left: 1rem;
 
   }
+  .feature_left{
+      padding-left: 2rem;
+  }
+  .features_des {
+    display: contents; 
+}
+.features {
+  height: auto;
+}
+.feature_img {
+  width: 50%;
+}
+.des_img1 {
+  width: 350px;
+  height: 465px;
+  margin-left: 7rem;
+  position: relative;
+  padding-right: 0px;
+}
+.des_img2 {
+  width: 380px;
+  height: 317px;
+  position: absolute;
+  margin-top: -20rem;
+}
+.features {
+  background-color: rgb(36, 36, 36);
+  /* background-color:blueviolet; */
+  width: 100%;
+  margin-top: 4rem;
+  height: fit-content;
+}
+.des_left{
+
+  margin-top: 1rem;
+}
 }

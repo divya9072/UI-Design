@@ -7,8 +7,10 @@
     transform: rotateZ(45deg);
     position:relative;
     bottom:14px;
-    border-radius: 3px;
-    margin-left: 46rem;
+    border-radius: 3px;    
+    margin-left: auto;
+    margin-right: auto;
+
   }
   .slider_container{
     background-color: rgb(59, 194, 183);
@@ -61,4 +63,15 @@
   }
   .fa_slide:hover{
       color: #ddd;
+  }
+
+  @media(max-width:1050px){
+    .slider_content {
+      margin-top: 1rem;
+    }
+    .slider_content >p{      
+    width: 30rem;
+    font-size: 14px;
+    }
+    
   }

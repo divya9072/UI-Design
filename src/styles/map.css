@@ -4,7 +4,7 @@
     margin-bottom: -6px;
 }
 .map{
-    /* overflow: hidden; */
+    overflow: hidden;
     position: relative;
 }
 
@@ -76,4 +76,10 @@
 .form>button:hover{
     background-color: rgb(36,36,36);
     color: #ddd;
+}
+
+@media(max-width:1050px){
+    .form{
+        width: 35%;
+    }
 }

@@ -114,3 +114,9 @@
   font-size: 1.8rem;
 }
 
+@media(max-width:1050px){
+  .longbutton>button{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
