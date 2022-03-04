@@ -1,21 +1,53 @@
 import React from "react";
-import "../styles/price.css";
+import styled from "styled-components";
 import PriceCard from "./pricecard";
 
+const Team_container = styled.div`
+  margin-top: 3rem;
+  overflow: hidden;
+`;
+const Team_offertext = styled.div`
+  text-align: center;
+  padding-bottom: 3rem;
+`;
+const Team_top = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+`;
+const Title = styled.h1`
+line-height: 15px;
+font-weight: 700;
+color: rgb(36, 36, 36);
+font-size: 1.8rem;
+`;
+const Span = styled.span`
+  color: rgb(59, 194, 183);
+`;
+const Desc = styled.span`
+  color: rgb(102, 99, 99);
+`;
+const Pcard = styled.div`
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+`;
 const Price = () => {
   return (
     <>
-      <div className="team_container">
-        <div className="team_offertext">
-          <div className="team_top">
-            <h1>REAL CHEAP <span>PRICES</span></h1>
-          </div>
-          <span>
+      <Team_container>
+        <Team_offertext>
+          <Team_top>
+            <Title>
+              REAL CHEAP <Span>PRICES</Span>
+            </Title>
+          </Team_top>
+          <Desc>
             We offer all our services in real low prices in comparison with
             similar companies.
-          </span>
-        </div>
-        <div className="price-card">
+          </Desc>
+        </Team_offertext>
+        <Pcard>
           <PriceCard
             planName="STANDARD PLAN"
             cost="19.99"
@@ -52,8 +84,8 @@ const Price = () => {
             desc4="Unlimted Bandwith"
             desc5="Enhanced Security"
           />
-        </div>
-      </div>
+        </Pcard>
+      </Team_container>
     </>
   );
 };

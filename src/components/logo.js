@@ -1,102 +1,171 @@
 import React from 'react'
-import '../styles/logo.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChrome, faDribbble, faFacebookF, faLinkedin, faPinterestP, faStumbleupon, faTwitter, faVimeo, faYoutube } from "@fortawesome/free-brands-svg-icons"
 import { faRss } from '@fortawesome/free-solid-svg-icons';
-// import { faFacebook } from "@fortawesome/free-solid-svg-icons";
+import styled from 'styled-components';
+
+
+const Logos=styled.div`
+background-color: rgb(36, 36, 36);
+width: 100%;
+height: 15rem
+`
+const Logo_heading=styled.div`
+display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+`
+const Image=styled.img`
+margin-top: 3rem;
+`
+const Logo_logo=styled.div`
+display: flex;
+    align-items: center;
+    justify-content: center;
+`
+const Logokey=styled.div`
+border: 1px solid #ddd;
+width: 30px;
+height: 30px;
+border-radius: 5px;
+align-items: center;
+justify-content: center;
+margin-left: 8px;
+
+&:hover{
+  background-color: rgb(59, 194, 183);
+}
+`
+const Icon=styled.div`
+align-items: center;
+justify-content: center;
+color: #ddd;
+
+margin-top: 6px;
+    margin-left: 7px;
+`
+const Title=styled.h1`
+font-family: robutu;
+    color: #ddd;
+    font-size: 15px;
+    margin-left: 12px;
+    margin-top: 3rem;
+`
 const Logo = () => {
   return (
-    <div className='logo'>
-        <div className='logo_heading'>
-        <img
+    <Logos>
+        <Logo_heading>
+        <Image
           style={{ width: "40px", height: "40px" }}
           src="https://media.istockphoto.com/vectors/triangle-logo-upside-down-flipped-abstract-prism-geometric-shape-vector-id1279136583?b=1&k=20&m=1279136583&s=612x612&w=0&h=jmXIsQCcOe-23uv2_FH19AeNK6YHiS_mY7arNgPs_Bc="
           alt="logo img"
         />
-        <h1>STARTUPRR</h1>
-        </div>
-        <div className='logo_logo'>
-            <div className='logo_key'>
+        <Title>STARTUPRR</Title>
+        </Logo_heading>
+        <Logo_logo>
+            <Logokey>
+            <Icon>
             <FontAwesomeIcon
               icon={faFacebookF}
-              className="logoicon"
             ></FontAwesomeIcon>
-            </div>
+            </Icon>
+        
+            </Logokey>
 
-            <div className='logo_key'>
-            <FontAwesomeIcon
+            <Logokey>
+              <Icon>
+              <FontAwesomeIcon
               icon={faTwitter}
-              className="logoicon"
             ></FontAwesomeIcon>
-            </div>
+              </Icon>
+            
+            </Logokey>
 
-            <div className='logo_key'>
-            <FontAwesomeIcon
+            <Logokey>
+              <Icon>
+              <FontAwesomeIcon
               icon={faPinterestP}
-              className="logoicon"
             ></FontAwesomeIcon>
-            </div>
+              </Icon>
+           
+            </Logokey>
 
-            <div className='logo_key'>
-            <FontAwesomeIcon
+            <Logokey>
+              <Icon>
+              <FontAwesomeIcon
               icon={faRss}
-              className="logoicon"
             ></FontAwesomeIcon>
-            </div>
+              </Icon>
+           
+            </Logokey>
 
-            <div className='logo_key'>
-            <FontAwesomeIcon
+            <Logokey>
+              <Icon>
+              <FontAwesomeIcon
               icon={faVimeo}
-              className="logoicon"
             ></FontAwesomeIcon>
-            </div>
+              </Icon>
+         
+            </Logokey>
 
-            <div className='logo_key'>
-            <FontAwesomeIcon
+            <Logokey>
+              <Icon>
+              <FontAwesomeIcon
               icon={faYoutube}
-              className="logoicon"
             ></FontAwesomeIcon>
-            </div>
+              </Icon>
+         
+            </Logokey>
 
-            <div className='logo_key'>
-            <FontAwesomeIcon
+            <Logokey>
+              <Icon> <FontAwesomeIcon
               icon={faLinkedin}
-              className="logoicon"
             ></FontAwesomeIcon>
-            </div>
+            </Icon>
+           
+            </Logokey>
 
             
-            <div className='logo_key'>
-            <FontAwesomeIcon
+            <Logokey>
+              <Icon>
+              <FontAwesomeIcon
               icon={faChrome}
-              className="logoicon"
             ></FontAwesomeIcon>
-            </div>
+              </Icon>
+         
+            </Logokey>
 
-            <div className='logo_key'>
-            <FontAwesomeIcon
+            <Logokey>
+              <Icon>
+              <FontAwesomeIcon
               icon={faYoutube}
-              className="logoicon"
             ></FontAwesomeIcon>
-            </div>
+              </Icon>
+           
+            </Logokey>
 
             
-            <div className='logo_key'>
-            <FontAwesomeIcon
+            <Logokey>
+              <Icon>
+              <FontAwesomeIcon
               icon={faDribbble}
-              className="logoicon"
             ></FontAwesomeIcon>
-            </div>
+              </Icon>
+            
+            </Logokey>
 
-            <div className='logo_key'>
-            <FontAwesomeIcon
+            <Logokey>
+              <Icon>
+              <FontAwesomeIcon
               icon={faStumbleupon}
-              className="logoicon"
             ></FontAwesomeIcon>
-            </div>
+              </Icon>
+         
+            </Logokey>
 
-        </div>
-    </div>
+        </Logo_logo>
+    </Logos>
   )
 }
 
