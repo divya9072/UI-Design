@@ -1,4 +1,3 @@
-
 import "./App.css";
 import Facts from "./components/facts";
 import Features from "./components/features";
@@ -15,29 +14,25 @@ import Progress from "./components/progress";
 import Purchase from "./components/purchase";
 import Sample from "./components/sample";
 import Slider from "./components/Slider";
-import Sponsers from "./components/sponsers";
 import Team from "./components/team";
-
 
 function App() {
   return (
     <>
-      {/* <Header /> */}
-      {/* <Offer /> */}
+      <Header />
+      <Offer />
       <Features />
-      {/* <FeaturesIntro /> */}
-      {/* <Progress /> */}
-      {/* <Sample /> */}
-      {/* <Facts/> */}
-      {/* <Team/> */}
-      {/* <Slider/>    */}
-      {/* <Sponsers/> */}
-      {/* <Price/> */}
-      {/* <Purchase/> */}
-      {/* <Logo/> */}
-      {/* <Map/> */}
-      {/* <Footer/> */}
-    
+      <FeaturesIntro />
+      <Progress />
+      <Sample />
+      <Facts />
+      <Team />
+      <Slider />
+      <Price />
+      <Purchase />
+      <Logo />
+      <Map />
+      <Footer />
     </>
   );
 }
